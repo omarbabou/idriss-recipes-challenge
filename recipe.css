@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+body {
+  background-color: rgb(179, 158, 131);
+  min-height: 100vh;
+  /* overflow: hidden; */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  color: rgb(50, 59, 48);
+}
+h2 {
+  color: rgb(5, 88, 84);
+  /* color: rgb(141, 150, 139); */
+}
+.name {
+  color: black;
+  padding: 7px 15px;
+  text-align: center;
+}
+.name:hover {
+  color: rgb(74, 90, 79);
+}
+.main-container {
+  background-color: white;
+  width: 80vw;
+  height: 78vh;
+  margin: 89px auto;
+  border-radius: 30px;
+}
+.main-menu {
+  width: 13vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-menu .cook-name {
+  height: 11vh;
+  display: flex;
+  padding: 8px 49px;
+  align-items: center;
+  margin-left: 38px;
+}
+/* .main-menu ul {
+  font-size: 25px;
+  color: lightgrey;
+  justify-content: center;
+  margin-left: 50px;
+  cursor: pointer;
+} */
+
+.main-menu .discover {
+  font-size: 25px;
+  color: lightgrey;
+  justify-content: center;
+  margin-left: 85px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.main-menu li {
+  font-size: 21px;
+  padding: 8px 17px;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-left: 66px;
+}
+.main-menu li:hover {
+  background-color: rgb(179, 158, 131);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+.main-menu ul li img {
+  width: 25px;
+  height: 25px;
+  padding: 4px;
+  margin-block-start: -4px;
+}
+
+.main-menu .For_you .img-for {
+  margin-left: -63px;
+}
+
+.main-menu .For_you ul {
+  background: rgb(179, 158, 131);
+  margin-left: 61px;
+  border-radius: 25px;
+}
+
+.main-menu li span {
+  margin-left: 4px;
+}
+
+.search button img {
+  width: 20px;
+}
+.container {
+  position: absolute;
+  right: -26px;
+  width: 59vw;
+  height: 100vh;
+  display: block;
+}
+.container .nav-menu {
+  position: relative;
+  width: 49vw;
+  height: 10vh;
+  display: flex;
+}
+.container .nav-menu .nav {
+  width: 92%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container .nav-menu .nav .search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.container .nav-menu .nav .search input[type="text"] {
+  border: none;
+  background-color: rgb(179, 158, 131);
+  padding: 10px;
+  width: 118%;
+  margin-left: -468px;
+  outline: none;
+}
+
+.container .nav-menu .nav .search button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(179, 158, 131);
+  cursor: pointer;
+}
+.container .nav-menu .nav .search button img {
+  width: 20px;
+  height: 20px;
+}
+.container .nav-menu .nav .user {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 85px;
+}
+.container .nav-menu .nav .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.container .nav-menu .nav .user a {
+  font-size: 15px;
+}
+.container .main-content {
+  margin-top: 11vh;
+  min-height: 90vh;
+  margin-left: -237px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.cards .img-case img {
+  width: 253px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 1px 1px 12px 1px rgb(144 121 90);
+  margin-left: -65px;
+}
+.container .main-content .main-cards {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .main-content .cards {
+  display: flex;
+  margin-top: -90px;
+}
+.container .main-content .cards .img-case {
+  margin-right: 85px;
+}
+.container .main-content .cards .img-case .img-text {
+  margin-top: -30%;
+  padding: 5px;
+  letter-spacing: 1px;
+  margin-left: -59px;
+}
+.container .main-content .cards h1 {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.main-content .title {
+  font-size: 22px;
+  margin-left: -47px;
+  color: rgb(179, 158, 131);
+  letter-spacing: 2px;
+  padding-top: 30px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.main-content .main-content-2 {
+  margin-left: -36px;
+  padding: 20px;
+  margin-top: 33px;
+}
+.main-content .main-content-2 .content-2 img {
+  width: 109px;
+  height: 104px;
+  object-fit: fill;
+}
+.main-content-2 .card-1 {
+  width: 250px;
+  height: 81px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: rgb(179, 158, 131);
+  margin-left: -2px;
+  border-radius: 12px;
+  margin-right: 144px;
+}
+.main-content-2 .card-1 p {
+  font-size: 16px;
+  margin-left: 20px;
+  color: white;
+}
+.card-1 img {
+  display: flex;
+  margin-left: -60px;
+  cursor: pointer;
+}
+.content-2 {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  body {
+    background-color: black;
+  }
+  .main-container {
+    width: 90vw;
+    height: 270vh;
+  }
+  .main-menu {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-menu li {
+    font-size: 15px;
+    padding: 5px 18px;
+    align-items: center;
+  }
+  .search button img {
+    width: 10px;
+  }
+  .container {
+    position: relative;
+    right: -420px;
+    display: flex;
+    flex-direction: column;
+    top: -29.5rem;
+    margin: 20px;
+  }
+  .container .nav-menu {
+    margin-top: -20px;
+    margin-left: 80px;
+  }
+  .main-menu .For-you ul {
+    background: none;
+  }
+  .cards .img-case img {
+    width: 450px;
+    height: 150px;
+    margin-bottom: 2rem;
+  }
+  .container .main-content .cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: -60px;
+    margin-bottom: -30px;
+  }
+
+  .container .nav-menu .nav .search input[type="text"] {
+    margin-left: -24rem;
+  }
+  .container .nav-menu .nav .search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .nav-menu .nav .user {
+    flex: 1;
+    margin-left: -20rem;
+  }
+  .container .nav-menu .nav .user img {
+    margin-left: 40px;
+  }
+  .container .nav-menu .nav .user a {
+    display: none;
+  }
+  .container .main-content .cards .img-case .img-text {
+    display: none;
+  }
+  .container .main-content .cards h1 {
+    font-size: 18px;
+  }
+  .main-content .title {
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  .main-content .main-content-2 {
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 30rem;
+    margin-right: -100px;
+  }
+  .main-content .main-content-2 .content-img img {
+    width: 140px;
+    height: 140px;
+  }
+  .main-content-2 .card-1 {
+    width: 60%;
+    height: 80px;
+    border-radius: 15px;
+    margin-bottom: 5rem;
+  }
+  .main-content-2 .card-1 p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .card-1 img {
+    margin-left: -15rem;
+    cursor: pointer;
+  }
+  .content-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 420px) and (max-width: 768px) {
+  .cards .img-case img {
+    width: 220px;
+    height: 200px;
+    margin-bottom: 4rem;
+  }
+  .container .main-content .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    position: relative;
+    right: -380px;
+  }
+  .container .nav-menu {
+    margin-top: -40px;
+  }
+  .container .nav-menu .nav .user {
+    flex: 1;
+    margin-left: -50rem;
+  }
+  .container .nav-menu .nav .search input[type="text"] {
+    width: 30%;
+    margin-right: 23rem;
+  }
+  .container .nav-menu .nav .search button {
+    display: flex;
+  }
+  .main-container {
+    width: 90vw;
+    height: 300vh;
+  }
+  .main-content .main-content-2 {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30rem;
+  }
+  .main-content .main-content-2 .content-img img {
+    width: 140px;
+    height: 140px;
+  }
+  .main-content-2 .card-1 {
+    width: 40%;
+    height: 80px;
+  }
+  .card-1 img {
+    margin-left: -7rem;
+    cursor: pointer;
+  }
+  .main-content .title {
+    margin: -25px;
+  }
+
+  .container .nav-menu .nav .search input[type="text"] {
+    display: 1;
+  }
+  .container .nav-menu .nav .search button {
+    display: none;
+  }
+}
